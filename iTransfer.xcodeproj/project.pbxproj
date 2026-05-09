@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014EFE89F589E6C7D3420CDA /* HTTPServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F10734FFC0E9BFAF36EC4F /* HTTPServerService.swift */; };
+		015D986EFCDC0AD03DA9BB7D /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB2025CD5A3E5C88756CBD /* TransferView.swift */; };
+		126FEF231128A94D2F9F1D8F /* ServerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ADB1F995CE756D73448006 /* ServerViewModel.swift */; };
+		1BA130FB5E11BB9CAF4D2019 /* FileSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA31CE985E580C5726EF8B9 /* FileSearchBar.swift */; };
+		5BE1307166645E5ED8FB74C7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62282C34E249498E56711B9C /* Constants.swift */; };
+		5BEA1D1CE5773669A378272B /* DeviceInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D779B12BA928D9F8F7D4FBC /* DeviceInfoService.swift */; };
+		634FE7318E8ED3A22BF0ED72 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1D132328AFB554376F2D6 /* SettingsRowView.swift */; };
+		6D5A46000BEB64E8C56572BE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1DD7115D1C21E88406C11 /* MainTabView.swift */; };
+		70E78E4BBD0F7A2E0EB885B4 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105E36492B09132A57A8315 /* AppSettings.swift */; };
+		72ED39BF1A913EA3EC200C0D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D82E160F2C3274F324DC78 /* SettingsView.swift */; };
+		96EDEBAE14A25AF3971180CD /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E6B2B6A555445A3E52D6A /* FileBrowserView.swift */; };
+		981607F47B7499CFE20A635B /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564383DD038B28D286FD98D /* ServerConfig.swift */; };
+		A3A6E352C07BA117C7658FB3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B9CABC9F24CB19C00FEC7 /* SettingsViewModel.swift */; };
+		A88BFC854D2182F6C7A60502 /* FileBrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91C5106BED542B7CA98BD3F /* FileBrowserViewModel.swift */; };
+		B2C2693BBC6909E169DF7589 /* FTPServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEF8AF0844F5817E4F5127 /* FTPServerService.swift */; };
+		B93D803E30948757B20EF12B /* DeviceInfoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113E346D6E0FDF11AB181C3 /* DeviceInfoBar.swift */; };
+		B942749448D6476470B6BCF6 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07569786C03E3AD9725B85 /* FileItem.swift */; };
+		BE125C0DA74E633C35A509D7 /* FileRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390413CDA84C07F09653B5F3 /* FileRowView.swift */; };
+		C20DA4E9E689CE5AE76084B6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF29C4139E3ED0D9CE42D5 /* Extensions.swift */; };
+		CF2E7623A2620DBFD5A7F3FD /* iTransferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5164BD7313B6D025FE0ECEE /* iTransferApp.swift */; };
+		D00DA9600ACBF05A4B2509BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0421B20738CB0DA17793996 /* Assets.xcassets */; };
+		D70D98BFBF35A95C3C54A332 /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6CFB4B00ABD09B2F86A80 /* FileManagerService.swift */; };
+		DDC163FE42C2D75A986ACDFD /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A85CD9B0EE84BA4F65CAA /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06ADB1F995CE756D73448006 /* ServerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerViewModel.swift; sourceTree = "<group>"; };
+		06F10734FFC0E9BFAF36EC4F /* HTTPServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerService.swift; sourceTree = "<group>"; };
+		07D82E160F2C3274F324DC78 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1113E346D6E0FDF11AB181C3 /* DeviceInfoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoBar.swift; sourceTree = "<group>"; };
+		1A0B9CABC9F24CB19C00FEC7 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		28B6CFB4B00ABD09B2F86A80 /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
+		2D779B12BA928D9F8F7D4FBC /* DeviceInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoService.swift; sourceTree = "<group>"; };
+		31DB2025CD5A3E5C88756CBD /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		390413CDA84C07F09653B5F3 /* FileRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRowView.swift; sourceTree = "<group>"; };
+		5FDEF8AF0844F5817E4F5127 /* FTPServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPServerService.swift; sourceTree = "<group>"; };
+		62282C34E249498E56711B9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7CA1DD7115D1C21E88406C11 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		7CE9D339CAE1DD1B7B42D956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8BE1D132328AFB554376F2D6 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		984FA4C5546DFC314762A45A /* iTransfer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = iTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8E6B2B6A555445A3E52D6A /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
+		B5164BD7313B6D025FE0ECEE /* iTransferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTransferApp.swift; sourceTree = "<group>"; };
+		BAA31CE985E580C5726EF8B9 /* FileSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSearchBar.swift; sourceTree = "<group>"; };
+		C564383DD038B28D286FD98D /* ServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		CBBF29C4139E3ED0D9CE42D5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DF07569786C03E3AD9725B85 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		E0421B20738CB0DA17793996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E105E36492B09132A57A8315 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		E91C5106BED542B7CA98BD3F /* FileBrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserViewModel.swift; sourceTree = "<group>"; };
+		ED5A85CD9B0EE84BA4F65CAA /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		167F9A4022FEACCE33D75E86 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5164BD7313B6D025FE0ECEE /* iTransferApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1F2DAE748C41B8E77E54A62D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A85CD9B0EE84BA4F65CAA /* AboutView.swift */,
+				8BE1D132328AFB554376F2D6 /* SettingsRowView.swift */,
+				07D82E160F2C3274F324DC78 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		316FB1B84946D79863A30D31 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E91C5106BED542B7CA98BD3F /* FileBrowserViewModel.swift */,
+				06ADB1F995CE756D73448006 /* ServerViewModel.swift */,
+				1A0B9CABC9F24CB19C00FEC7 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		33286CF78BF06B54CD13EF22 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D779B12BA928D9F8F7D4FBC /* DeviceInfoService.swift */,
+				28B6CFB4B00ABD09B2F86A80 /* FileManagerService.swift */,
+				5FDEF8AF0844F5817E4F5127 /* FTPServerService.swift */,
+				06F10734FFC0E9BFAF36EC4F /* HTTPServerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		42BB2B15836C531A26A2CED0 /* iTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				E0421B20738CB0DA17793996 /* Assets.xcassets */,
+				167F9A4022FEACCE33D75E86 /* App */,
+				54B19770E03F5A43C8B378DD /* Models */,
+				D94FA8D0C313F55C8D9D558D /* Resources */,
+				33286CF78BF06B54CD13EF22 /* Services */,
+				F3FA893037B7325ACFE5A729 /* Utils */,
+				316FB1B84946D79863A30D31 /* ViewModels */,
+				779107AD19985753D0E3295F /* Views */,
+			);
+			path = iTransfer;
+			sourceTree = "<group>";
+		};
+		54B19770E03F5A43C8B378DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E105E36492B09132A57A8315 /* AppSettings.swift */,
+				DF07569786C03E3AD9725B85 /* FileItem.swift */,
+				C564383DD038B28D286FD98D /* ServerConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		779107AD19985753D0E3295F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1DD7115D1C21E88406C11 /* MainTabView.swift */,
+				89821C587AE9E598E6893427 /* Common */,
+				BE8B5C4278016D476844A159 /* FileBrowser */,
+				1F2DAE748C41B8E77E54A62D /* Settings */,
+				88B4AFE663D76E0970D2BD41 /* Transfer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B20C7446C72E83CF49CD920 = {
+			isa = PBXGroup;
+			children = (
+				42BB2B15836C531A26A2CED0 /* iTransfer */,
+				F278A4132953B29F4E7FC583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88B4AFE663D76E0970D2BD41 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				31DB2025CD5A3E5C88756CBD /* TransferView.swift */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		89821C587AE9E598E6893427 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1113E346D6E0FDF11AB181C3 /* DeviceInfoBar.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BE8B5C4278016D476844A159 /* FileBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AD8E6B2B6A555445A3E52D6A /* FileBrowserView.swift */,
+				390413CDA84C07F09653B5F3 /* FileRowView.swift */,
+				BAA31CE985E580C5726EF8B9 /* FileSearchBar.swift */,
+			);
+			path = FileBrowser;
+			sourceTree = "<group>";
+		};
+		D94FA8D0C313F55C8D9D558D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CE9D339CAE1DD1B7B42D956 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F278A4132953B29F4E7FC583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				984FA4C5546DFC314762A45A /* iTransfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FA893037B7325ACFE5A729 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				62282C34E249498E56711B9C /* Constants.swift */,
+				CBBF29C4139E3ED0D9CE42D5 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		413FB2F9A6C235C4C1F2BEF4 /* iTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D49DDA45831EF7F09FCDDB /* Build configuration list for PBXNativeTarget "iTransfer" */;
+			buildPhases = (
+				A36B53BADD37EABA29434506 /* Sources */,
+				47FB41FFE105950270F3DE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTransfer;
+			packageProductDependencies = (
+			);
+			productName = iTransfer;
+			productReference = 984FA4C5546DFC314762A45A /* iTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C5D2B1D42CF61E20359725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 0F5F401C2027BFC5029D84FC /* Build configuration list for PBXProject "iTransfer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7B20C7446C72E83CF49CD920;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F278A4132953B29F4E7FC583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413FB2F9A6C235C4C1F2BEF4 /* iTransfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47FB41FFE105950270F3DE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00DA9600ACBF05A4B2509BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36B53BADD37EABA29434506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC163FE42C2D75A986ACDFD /* AboutView.swift in Sources */,
+				70E78E4BBD0F7A2E0EB885B4 /* AppSettings.swift in Sources */,
+				5BE1307166645E5ED8FB74C7 /* Constants.swift in Sources */,
+				B93D803E30948757B20EF12B /* DeviceInfoBar.swift in Sources */,
+				5BEA1D1CE5773669A378272B /* DeviceInfoService.swift in Sources */,
+				C20DA4E9E689CE5AE76084B6 /* Extensions.swift in Sources */,
+				B2C2693BBC6909E169DF7589 /* FTPServerService.swift in Sources */,
+				96EDEBAE14A25AF3971180CD /* FileBrowserView.swift in Sources */,
+				A88BFC854D2182F6C7A60502 /* FileBrowserViewModel.swift in Sources */,
+				B942749448D6476470B6BCF6 /* FileItem.swift in Sources */,
+				D70D98BFBF35A95C3C54A332 /* FileManagerService.swift in Sources */,
+				BE125C0DA74E633C35A509D7 /* FileRowView.swift in Sources */,
+				1BA130FB5E11BB9CAF4D2019 /* FileSearchBar.swift in Sources */,
+				014EFE89F589E6C7D3420CDA /* HTTPServerService.swift in Sources */,
+				6D5A46000BEB64E8C56572BE /* MainTabView.swift in Sources */,
+				981607F47B7499CFE20A635B /* ServerConfig.swift in Sources */,
+				126FEF231128A94D2F9F1D8F /* ServerViewModel.swift in Sources */,
+				634FE7318E8ED3A22BF0ED72 /* SettingsRowView.swift in Sources */,
+				72ED39BF1A913EA3EC200C0D /* SettingsView.swift in Sources */,
+				A3A6E352C07BA117C7658FB3 /* SettingsViewModel.swift in Sources */,
+				015D986EFCDC0AD03DA9BB7D /* TransferView.swift in Sources */,
+				CF2E7623A2620DBFD5A7F3FD /* iTransferApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EB374595EB9F4A4A719C980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		68B85ACE5354C7F7655894AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9ACB5AB5D17FBB6BE3C8F2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iTransfer/Resources/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "iTransfer 需要本地网络权限以通过 HTTP/FTP 共享文件。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = (
+					fetch,
+					processing,
+				);
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itransfer.app;
+				PRODUCT_NAME = iTransfer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDADFAF8389895089A934AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iTransfer/Resources/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "iTransfer 需要本地网络权限以通过 HTTP/FTP 共享文件。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = (
+					fetch,
+					processing,
+				);
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itransfer.app;
+				PRODUCT_NAME = iTransfer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5F401C2027BFC5029D84FC /* Build configuration list for PBXProject "iTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB374595EB9F4A4A719C980 /* Debug */,
+				68B85ACE5354C7F7655894AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0D49DDA45831EF7F09FCDDB /* Build configuration list for PBXNativeTarget "iTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDADFAF8389895089A934AD2 /* Debug */,
+				9ACB5AB5D17FBB6BE3C8F2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C5D2B1D42CF61E20359725 /* Project object */;
+}
