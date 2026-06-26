@@ -7,9 +7,9 @@
 iTransfer 是一款 iOS 无线文件传输应用，通过在 iPhone 上启动内嵌的 HTTP/FTP 服务器，让同一局域网内的其他设备通过浏览器或 FTP 客户端直接访问和管理手机文件。
 
 <p align="center">
-  <img src="文件列表界面.jpg" width="30%" alt="文件列表" />
-  <img src="About界面.jpg" width="30%" alt="关于" />
-  <img src="Setting界面.jpg" width="30%" alt="设置" />
+  <img src="https://github.com/isaveall/iFTPServer/blob/main/文件列表界面.jpg" width="30%" alt="文件列表" />
+  <img src="https://github.com/isaveall/iFTPServer/blob/main/About界面.jpg" width="30%" alt="关于" />
+  <img src="https://github.com/isaveall/iFTPServer/blob/main/Setting界面.jpg" width="30%" alt="设置" />
 </p>
 
 ## ✨ 功能
